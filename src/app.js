@@ -7,7 +7,7 @@ var airQualityRouter = require("./routes/airQuality.route");
 
 const app = express();
 
-let dotenv = require('dotenv').config()
+require('dotenv').config()
 
 // Basic Swagger options
 const swaggerOptions = {

@@ -2,7 +2,7 @@ const winston = require('winston');
 const DailyRotateFile = require('winston-daily-rotate-file');
 const { combine, timestamp, colorize, printf } = winston.format;
 
-let dotenv = require('dotenv').config()
+require('dotenv').config()
 
 // text format used on the console level
 const consoleLogFormat = printf(({ timestamp, level, message }) => {

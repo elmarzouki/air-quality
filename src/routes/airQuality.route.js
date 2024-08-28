@@ -1,5 +1,4 @@
 const express = require('express');
-const axios = require('axios');
 
 const CityAirQuality = require('../models/cityAirQuality.model');
 const db = require('../db/db.connection');

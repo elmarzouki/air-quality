@@ -1,5 +1,4 @@
 // unite test with mock external API example
-const request = require('supertest');
 const nock = require('nock');
 
 const airQualityService = require('../services/airQuality.service');
